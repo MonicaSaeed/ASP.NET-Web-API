@@ -10,5 +10,6 @@ namespace StudentAPI.Context
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Department> Departments { get; set; }
     }
 }
