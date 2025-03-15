@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\filters\\myresultfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\filters\\myresultfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\filters\\validateaddressattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\filters\\validateaddressattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\context\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\context\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\validators\\dateinpastattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\validators\\dateinpastattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 307,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 93,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:57:29.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidateAddressAttribute.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Filters\\ValidateAddressAttribute.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Filters\\ValidateAddressAttribute.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Filters\\ValidateAddressAttribute.cs",
+              "RelativeToolTip": "StudentAPI\\Filters\\ValidateAddressAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:36:40.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyResultFilterAttribute.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Filters\\MyResultFilterAttribute.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Filters\\MyResultFilterAttribute.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Filters\\MyResultFilterAttribute.cs",
+              "RelativeToolTip": "StudentAPI\\Filters\\MyResultFilterAttribute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:18:42.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "StudentAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:29:08.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Program.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Program.cs",
+              "RelativeToolTip": "StudentAPI\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:17:23.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Context\\StudentContext.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Context\\StudentContext.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Context\\StudentContext.cs",
+              "RelativeToolTip": "StudentAPI\\Context\\StudentContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:43:04.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Models\\Student.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Models\\Student.cs",
+              "RelativeToolTip": "StudentAPI\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:36:07.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DateInPastAttribute.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Validators\\DateInPastAttribute.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Validators\\DateInPastAttribute.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Validators\\DateInPastAttribute.cs",
+              "RelativeToolTip": "StudentAPI\\Validators\\DateInPastAttribute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:03:40.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StudentAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StudentAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T09:03:50.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentAPI\\appsettings.json",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\appsettings.json",
+              "RelativeToolTip": "StudentAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T11:32:33.027Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
