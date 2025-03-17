@@ -1,5 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Mapster;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using StudentAPI.Context;
+using StudentAPI.DTOs;
+using StudentAPI.Migrations;
 using StudentAPI.Models;
 
 namespace StudentAPI.Controllers
@@ -18,28 +22,45 @@ namespace StudentAPI.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var departments = _db.Departments.ToList();
+            var departments = _db.Departments.Include(e => e.students).ToList();
             if (departments == null || !departments.Any())
                 return NotFound();
-            return Ok(departments);
+
+            var departmentDTOs = departments.Adapt<List<DepartmentDTO>>();
+
+            foreach (var dept in departmentDTOs)
+            {
+                dept.Status = dept.StudentCount > 15 ? "overload" : "success";
+            }
+
+            return Ok(departmentDTOs);
         }
+
 
         [HttpGet("{id:int}")]
         public IActionResult GetById(int id)
         {
-            var department = _db.Departments.FirstOrDefault(d => d.Id == id);
+            var department = _db.Departments.Include(e=>e.students).FirstOrDefault(d => d.Id == id);
             if (department == null)
                 return NotFound();
-            return Ok(department);
+
+            var departmentDTOs = department.Adapt<DepartmentDTO>();
+            departmentDTOs.Status = departmentDTOs.StudentCount > 15 ? "overload" : "success";
+
+            return Ok(departmentDTOs);
         }
 
         [HttpGet("{name}")]
         public IActionResult GetByName(string name)
         {
-            var department = _db.Departments.FirstOrDefault(d => d.Name == name);
+            var department = _db.Departments.Include(e => e.students).FirstOrDefault(d => d.Name == name);
             if (department == null)
                 return NotFound();
-            return Ok(department);
+
+            var departmentDTOs = department.Adapt<DepartmentDTO>();
+            departmentDTOs.Status = departmentDTOs.StudentCount > 15 ? "overload" : "success";
+
+            return Ok(departmentDTOs);
         }
 
         [HttpPost]

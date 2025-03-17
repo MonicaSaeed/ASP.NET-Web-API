@@ -16,5 +16,7 @@ namespace StudentAPI.Models
         [MinLength(3, ErrorMessage = "Manager Name must be at least 3 characters long.")]
         [MaxLength(50, ErrorMessage = "Manager Name cannot exceed 50 characters.")]
         public string MgrName { get; set; }
+
+        public ICollection<Student>? students { get; set; } = new List<Student>();
     }
 }

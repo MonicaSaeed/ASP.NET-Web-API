@@ -1,5 +1,6 @@
 ﻿using StudentAPI.Validators;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StudentAPI.Models
 {
@@ -19,5 +20,8 @@ namespace StudentAPI.Models
         public string? PhoneNum { get; set; }
         public float Grade { get; set; }
 
+        [ForeignKey(nameof(Department))]
+        public int DeptId { get; set; }
+        public Department? Department { get; set; }
     }
 }

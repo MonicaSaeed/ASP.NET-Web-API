@@ -339,3 +339,7 @@ D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\obj\Debug\net9.0\r
 D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\obj\Debug\net9.0\StudentAPI.pdb
 D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\obj\Debug\net9.0\StudentAPI.genruntimeconfig.cache
 D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\obj\Debug\net9.0\ref\StudentAPI.dll
+D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\bin\Debug\net9.0\libman.json
+D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\bin\Debug\net9.0\Mapster.dll
+D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\bin\Debug\net9.0\Mapster.Core.dll
+D:\iti\mobile track\API\ASP.NET-Web-API\StudentAPI\StudentAPI\bin\Debug\net9.0\Mapster.DependencyInjection.dll
