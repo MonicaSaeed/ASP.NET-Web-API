@@ -188,21 +188,5 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentAPI.Controllers.StudentController",
-    "Method": "AddV2",
-    "RelativePath": "api/Student/v2",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "st",
-        "Type": "StudentAPI.Models.Student",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

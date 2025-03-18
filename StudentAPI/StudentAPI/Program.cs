@@ -1,10 +1,12 @@
 
+using DepartmentAPI.Repo;
 using Mapster;
 using MapsterMapper;
 using Microsoft.EntityFrameworkCore;
 using StudentAPI.Context;
 using StudentAPI.DTOs;
 using StudentAPI.Middleware;
+using StudentAPI.Repo;
 
 namespace StudentAPI
 {
@@ -20,8 +22,13 @@ namespace StudentAPI
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<IStudentRepo, StudentRepo>();
+            builder.Services.AddScoped<IDepartmentRepo, DepartmentRepo>();
+
             builder.Services.AddDbContext<StudentContext>(options =>
-            options.UseSqlServer("Server=MONICA\\SQLEXPRESS;Database=StudentDB;Trusted_Connection=True;Encrypt=False;"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+            );
+            
             builder.Services.AddCors(
                 op => {
                     op.AddPolicy("policy1", policy =>

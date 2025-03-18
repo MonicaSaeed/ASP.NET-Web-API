@@ -1,10 +1,12 @@
-﻿using Mapster;
+﻿using DepartmentAPI.Repo;
+using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentAPI.Context;
 using StudentAPI.DTOs;
 using StudentAPI.Migrations;
 using StudentAPI.Models;
+using StudentAPI.Repo;
 
 namespace StudentAPI.Controllers
 {
@@ -12,17 +14,17 @@ namespace StudentAPI.Controllers
     [ApiController]
     public class DepartmentController: ControllerBase
     {
-        private readonly StudentContext _db;
-
-        public DepartmentController(StudentContext db)
+        IDepartmentRepo departmentRepo;
+        public DepartmentController(IDepartmentRepo Idr)
         {
-            _db = db;
+            departmentRepo = Idr;  
         }
 
         [HttpGet]
         public IActionResult GetAll()
         {
-            var departments = _db.Departments.Include(e => e.students).ToList();
+            //var departments = _db.Departments.Include(e => e.students).ToList();
+            var departments = departmentRepo.getAll();
             if (departments == null || !departments.Any())
                 return NotFound();
 
@@ -40,7 +42,8 @@ namespace StudentAPI.Controllers
         [HttpGet("{id:int}")]
         public IActionResult GetById(int id)
         {
-            var department = _db.Departments.Include(e=>e.students).FirstOrDefault(d => d.Id == id);
+            //var department = _db.Departments.Include(e=>e.students).FirstOrDefault(d => d.Id == id);
+            var department = departmentRepo.getById(id);
             if (department == null)
                 return NotFound();
 
@@ -53,7 +56,8 @@ namespace StudentAPI.Controllers
         [HttpGet("{name}")]
         public IActionResult GetByName(string name)
         {
-            var department = _db.Departments.Include(e => e.students).FirstOrDefault(d => d.Name == name);
+            //var department = _db.Departments.Include(e => e.students).FirstOrDefault(d => d.Name == name);
+            var department = departmentRepo.getByName(name);
             if (department == null)
                 return NotFound();
 
@@ -68,8 +72,9 @@ namespace StudentAPI.Controllers
         {
             if (department.Name == null || department.Location == null || department.MgrName == null)
                 return BadRequest();
-            _db.Departments.Add(department);
-            _db.SaveChanges();
+            //_db.Departments.Add(department);
+            //_db.SaveChanges();
+            departmentRepo.add(department);
             return CreatedAtAction(nameof(GetById), new { id = department.Id }, new { message = "Added Successfully" });
         }
 
@@ -78,19 +83,22 @@ namespace StudentAPI.Controllers
         {
             if (department.Name == null || department.Location == null || department.MgrName == null)
                 return BadRequest();
-            _db.Departments.Update(department);
-            _db.SaveChanges();
+            //_db.Departments.Update(department);
+            //_db.SaveChanges();
+            departmentRepo.update(department);
             return NoContent();
         }
 
         [HttpDelete("{id:int}")]
         public IActionResult Delete(int id)
         {
-            var department = _db.Departments.FirstOrDefault(d => d.Id == id);
+            //var department = _db.Departments.FirstOrDefault(d => d.Id == id);
+            var department = departmentRepo.getById(id);
             if (department == null)
                 return NotFound();
-            _db.Departments.Remove(department);
-            _db.SaveChanges();
+            //_db.Departments.Remove(department);
+            //_db.SaveChanges();
+            departmentRepo.delete(department);
             return Ok(department);
         }
     }
