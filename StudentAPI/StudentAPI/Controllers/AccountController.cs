@@ -14,11 +14,13 @@ namespace StudentAPI.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private readonly UserManager<ApplicationUser> _userManger;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(UserManager<ApplicationUser> userManger)
+        public AccountController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
-            _userManger = userManger;
+            _userManager = userManager;
+            _roleManager = roleManager;
         }
 
         [HttpPost("Register")]
@@ -30,27 +32,31 @@ namespace StudentAPI.Controllers
                 user.UserName = userDto.UserName;
                 user.Email = userDto.Email;
 
-                IdentityResult res = await _userManger.CreateAsync(user, userDto.Password);
+                IdentityResult res = await _userManager.CreateAsync(user, userDto.Password);
                 if (res.Succeeded)
                 {
-                    return Ok("User Created");
-                }
-                foreach (var item in res.Errors)
-                {
-                    ModelState.AddModelError("", item.Description);
+                    var role = userDto.Role ?? "User";
+
+                    if (!await _roleManager.RoleExistsAsync(role))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole(role));
+                    }
+
+                    await _userManager.AddToRoleAsync(user, role);
+                    return Ok(new { Message = "User registered successfully", Role = role });
                 }
 
+                return BadRequest(res.Errors);
             }
             return BadRequest(ModelState);
-
         }
         [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginDTO userDTo)
         {
             if (ModelState.IsValid)
             {
-                ApplicationUser user = await _userManger.FindByNameAsync(userDTo.UserName);
-                bool found = await _userManger.CheckPasswordAsync(user, userDTo.Password);
+                ApplicationUser user = await _userManager.FindByNameAsync(userDTo.UserName);
+                bool found = await _userManager.CheckPasswordAsync(user, userDTo.Password);
                 if (found)
                 {
                     List<Claim> userCliams = new List<Claim>();
@@ -58,7 +64,7 @@ namespace StudentAPI.Controllers
                     userCliams.Add(new Claim(ClaimTypes.Name, user.UserName));
                     userCliams.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())); // for unique token 
 
-                    var userRoles = await _userManger.GetRolesAsync(user);
+                    var userRoles = await _userManager.GetRolesAsync(user);
                     foreach (var r in userRoles)
                     {
                         userCliams.Add(new Claim(ClaimTypes.Role, r));

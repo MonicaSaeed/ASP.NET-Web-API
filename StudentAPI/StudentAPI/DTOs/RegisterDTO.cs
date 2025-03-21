@@ -11,6 +11,7 @@ namespace Mobile45API.DTOs
         [Compare(nameof(Password), ErrorMessage = "Password and Confirm Password not match")]
         public string ConfirmPassword { get; set; }
         public string Email { get; set; }
+        public string Role { get; set; } 
 
     }
 }

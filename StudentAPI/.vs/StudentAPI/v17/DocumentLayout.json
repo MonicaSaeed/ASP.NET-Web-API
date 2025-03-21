@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\migrations\\20250321144918_createidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\migrations\\20250321144918_createidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\migrations\\20250321144918_createidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\migrations\\20250321144918_createidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C850CD90-A044-4C66-9C25-2BAC75AC4884}|StudentAPI\\StudentAPI.csproj|d:\\iti\\mobile track\\api\\asp.net-web-api\\studentapi\\studentapi\\context\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,19 +57,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "StudentAPI\\DTOs\\LoginDTO.cs",
-              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "StudentAPI\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:47:01.65Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -79,39 +66,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "StudentAPI\\DTOs\\RegisterDTO.cs",
               "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\RegisterDTO.cs",
               "RelativeToolTip": "StudentAPI\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T15:00:51.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Controllers\\AccountController.cs",
               "RelativeToolTip": "StudentAPI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T14:54:56.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DepartmentDTO.cs",
               "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\DepartmentDTO.cs",
               "RelativeDocumentMoniker": "StudentAPI\\DTOs\\DepartmentDTO.cs",
               "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\DepartmentDTO.cs",
               "RelativeToolTip": "StudentAPI\\DTOs\\DepartmentDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T15:00:56.456Z",
               "EditorCaption": ""
@@ -124,7 +111,7 @@
               "RelativeDocumentMoniker": "StudentAPI\\Controllers\\DepartmentController.cs",
               "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "StudentAPI\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAkwGoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T15:26:04.566Z",
               "EditorCaption": ""
@@ -137,14 +124,39 @@
               "RelativeDocumentMoniker": "StudentAPI\\Controllers\\StudentController.cs",
               "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
               "RelativeToolTip": "StudentAPI\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAowHAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowGQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T15:19:40.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250321144918_createIdentityUser.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
+              "RelativeToolTip": "StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAswNEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:49:19.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "StudentAPI\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:47:01.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Program.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Program.cs",
@@ -152,12 +164,11 @@
               "RelativeToolTip": "StudentAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:19:46.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T15:19:46.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Models\\ApplicationUser.cs",
@@ -165,12 +176,11 @@
               "RelativeToolTip": "StudentAPI\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:18:06.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T13:18:06.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "StudentAPI\\DTOs\\StudentDTO.cs",
@@ -178,21 +188,7 @@
               "RelativeToolTip": "StudentAPI\\DTOs\\StudentDTO.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:00:53.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250321144918_createIdentityUser.cs",
-              "DocumentMoniker": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
-              "RelativeDocumentMoniker": "StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
-              "ToolTip": "D:\\iti\\mobile track\\API\\ASP.NET-Web-API\\StudentAPI\\StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
-              "RelativeToolTip": "StudentAPI\\Migrations\\20250321144918_createIdentityUser.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:49:19.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T15:00:53.44Z"
             },
             {
               "$type": "Document",
@@ -204,8 +200,7 @@
               "RelativeToolTip": "StudentAPI\\Context\\StudentContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:20:51.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T13:20:51.098Z"
             }
           ]
         },

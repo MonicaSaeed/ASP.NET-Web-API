@@ -1,4 +1,5 @@
 ﻿using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentAPI.Context;
@@ -21,6 +22,7 @@ namespace StudentAPI.Controllers
 
         [HttpGet]
         [MyResultFilterAttribute]
+        [Authorize(Roles = "Admin,User")] 
         public IActionResult GetAll()
         {
             //var studs = _sdb.Students.Include(e => e.Department).ToList();
@@ -33,6 +35,7 @@ namespace StudentAPI.Controllers
             return Ok(studentDTOs);
         }
         [HttpGet("{id:int}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetById(int id)
         {
             //var stud = _sdb.Students.Include(e => e.Department).FirstOrDefault(x => x.Id == id);
@@ -44,6 +47,7 @@ namespace StudentAPI.Controllers
             return Ok(studentDTO);
         }
         [HttpGet("{name:alpha}")]
+        [Authorize(Roles = "Admin,User")] 
         public IActionResult GetByName(string name) 
         {
             //var stud = _sdb.Students.Include(e => e.Department).FirstOrDefault(x => x.Name == name);
@@ -55,6 +59,7 @@ namespace StudentAPI.Controllers
             return Ok(studentDTO);
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult Add(Student st)
         {
             if (st.Name == null || st.Age == null || st.Address == null || st.Grade == null)
@@ -82,6 +87,7 @@ namespace StudentAPI.Controllers
         //}
 
         [HttpPut]
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(Student st)
         {
             if (st.Name == null)
@@ -92,6 +98,7 @@ namespace StudentAPI.Controllers
             return NoContent();
         }
         [HttpDelete("{id:int}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             //var stud = _sdb.Students.Include(s => s.Department).FirstOrDefault(x => x.Id == id);
@@ -104,6 +111,7 @@ namespace StudentAPI.Controllers
             return Ok(stud);
         }
         [HttpGet("throw")]
+        [Authorize(Roles = "Admin")] 
         public IActionResult ThrowException()
         {
             throw new Exception("This is a test exception!");
