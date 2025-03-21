@@ -1,5 +1,6 @@
 ﻿using DepartmentAPI.Repo;
 using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentAPI.Context;
@@ -12,6 +13,7 @@ namespace StudentAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class DepartmentController: ControllerBase
     {
         IDepartmentRepo departmentRepo;
